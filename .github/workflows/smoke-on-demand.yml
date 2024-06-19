@@ -1,7 +1,7 @@
 name: smoke test on demand
 on: [workflow_dispatch]
 jobs:
-  regression-on-demand:
+  smoke-on-demand:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
